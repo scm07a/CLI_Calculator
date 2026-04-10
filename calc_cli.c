@@ -9,11 +9,12 @@ int main()
         int num_count, n, choice;
         double values[999];
         printf("\n\n----------Calculator CLI----------\n\n");
-        printf("0.Exit\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Prime Checker\n6.Factorial\n7.Even Checker\n8.Odd Checker\n9.Biggest Number\n10.Smallest Number\nChoose The Following:");
+        printf("0.Exit\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Prime Checker\n6.Factorial\n7.Even Checker\n8.Odd Checker\n9.Biggest Number\n10.Smallest Number\nChoose Your Operation:");
         scanf("%d", &choice);
         flush_buff();
 
         if (choice == 0)
+            printf("\nExiting Program...");
             break;
 
         //Addition
