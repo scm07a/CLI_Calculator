@@ -2,10 +2,10 @@
 A command line interface calculator built in C to test to learn arrays functions and such.
 
 How To Compile:
-gcc calc_cli.c math_moha.c -o name
+gcc calc_cli.c moha_math.c moha_utils.c -o name_prog
 
 How To Run:
-Powershell = name
+Powershell = name_prog
 
 Bash = ./name
 
